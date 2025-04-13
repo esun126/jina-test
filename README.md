@@ -49,6 +49,8 @@ Jina AI provides a suite of powerful APIs for search, embeddings, classification
 
 ## Usage
 
+### Command-Line Application
+
 Run the main application:
 
 ```bash
@@ -56,6 +58,24 @@ python app.py
 ```
 
 This will demonstrate various use cases of Jina AI APIs.
+
+### Web Application
+
+The repository also includes a web application that provides a user-friendly interface for learning from online documents using Jina AI APIs.
+
+To run the web application:
+
+```bash
+python web_app.py
+```
+
+Then open your browser and navigate to `http://localhost:5000`.
+
+The web application allows you to:
+1. Enter a document URL and your Jina API key
+2. Process the document using Jina AI APIs
+3. Ask questions about the document
+4. Get answers based on the document content
 
 ## Examples
 
