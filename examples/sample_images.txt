@@ -1,0 +1,25 @@
+# Sample Images for Testing
+
+To test the image classification example, you'll need some sample images. Here are a few ways to get sample images:
+
+1. **Use your own images**: You can use any image file from your computer.
+
+2. **Download sample images**: You can download sample images from various sources, such as:
+   - [Unsplash](https://unsplash.com/) - Free high-resolution photos
+   - [Pexels](https://www.pexels.com/) - Free stock photos
+   - [Pixabay](https://pixabay.com/) - Free stock photos and videos
+
+3. **Use sample images from datasets**: You can use sample images from datasets like:
+   - [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
+   - [ImageNet](http://www.image-net.org/)
+   - [COCO](https://cocodataset.org/)
+
+## Example Usage
+
+Once you have a sample image, you can run the image classification example like this:
+
+```bash
+python image_classification.py path/to/your/image.jpg
+```
+
+The script will classify the image into one of the predefined categories and display the results.
