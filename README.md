@@ -61,7 +61,7 @@ This will demonstrate various use cases of Jina AI APIs.
 
 ### Web Application
 
-The repository also includes a web application that provides a user-friendly interface for learning from online documents using Jina AI APIs.
+The repository includes a web application that provides a user-friendly interface for learning from online documents using Jina AI APIs.
 
 To run the web application:
 
@@ -76,6 +76,18 @@ The web application allows you to:
 2. Process the document using Jina AI APIs
 3. Ask questions about the document
 4. Get answers based on the document content
+
+For detailed instructions on using the web interface, see the [Web Interface Guide](web_interface_guide.md).
+
+### Test Case
+
+To quickly test the web application with sample documents and questions, run:
+
+```bash
+python test_web_app.py
+```
+
+This will launch the web application and open it in your browser, along with instructions for testing it with sample documents and questions.
 
 ## Examples
 
