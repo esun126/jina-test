@@ -59,15 +59,30 @@ This will demonstrate various use cases of Jina AI APIs.
 
 ## Examples
 
-The application includes examples of:
+The repository includes several example scripts in the `examples` directory:
 
-1. Basic search using the Search API
-2. Enhanced search with reranking
-3. Text and image classification
-4. Web content processing
-5. Text segmentation and tokenization
-6. Generating embeddings for text and images
-7. Deep search for comprehensive investigation
+1. **Image Classification**: Classify images into categories using the Classifier API.
+   ```bash
+   python examples/image_classification.py sample_image.jpg
+   ```
+
+2. **Web Content Processing**: Process web content and generate embeddings using the Reader API and Embeddings API.
+   ```bash
+   python examples/web_content_processing.py https://jina.ai
+   ```
+
+3. **Enhanced Search with Reranking**: Perform enhanced search with reranking using the Search API and Reranker API.
+   ```bash
+   python examples/enhanced_search.py "Jina AI embeddings models"
+   ```
+
+4. **Document Learning**: Learn from online documents and answer questions about them using multiple Jina AI APIs.
+   ```bash
+   python examples/document_learning.py https://jina.ai/blog/embeddings-v3/ https://jina.ai/blog/reranker-v2/
+   ```
+   This example creates an interactive question-answering system that allows you to ask questions about the documents you've provided.
+
+See the [examples README](examples/README.md) for more details.
 
 ## License
 
