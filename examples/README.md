@@ -72,6 +72,27 @@ python enhanced_search.py "<search_query>"
 python enhanced_search.py "Jina AI embeddings models"
 ```
 
+### 4. Document Learning
+
+This example demonstrates how to use Jina AI APIs to learn from online documents. It shows how to extract content from documents, process them, and answer questions based on their content.
+
+**Usage:**
+```bash
+python document_learning.py <url1> [<url2> ...]
+```
+
+**Example:**
+```bash
+python document_learning.py https://jina.ai/blog/embeddings-v3/ https://jina.ai/blog/reranker-v2/
+```
+
+This example creates an interactive question-answering system that allows you to ask questions about the documents you've provided. The system will:
+1. Extract content from the provided URLs using the Reader API
+2. Segment the content into chunks using the Segmenter API
+3. Generate embeddings for the chunks using the Embeddings API
+4. Find relevant chunks for your questions using semantic search
+5. Present the most relevant information as answers
+
 ## Additional Examples
 
 For more examples and comprehensive demonstrations of all Jina AI Search Foundation APIs, check out the main application file (`app.py`) in the root directory.
